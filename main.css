@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+
+ /* Utility Classes */
+
+.container {
+    max-width: 1366px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    background-color: #6ab43e;
+    height: 45px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #77c14b;
+}
+
+
+.btn-outline {
+    background-color: transparent;
+    padding: 10px 40px;
+    height: 45px;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: #6ab43e;
+}
+
+ /* !Utility Classes */
+
+ .top-bar {
+    border-bottom: 1px solid #ececec;;
+ }
+
+.top-bar .container  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar .top-bar-left {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.top-bar .top-bar-left p {
+    font-size: 13px;
+    color: #666666;
+}
+.top-bar .top-bar-left p span {
+    color: #6ab43e;
+}
+
+.top-bar .top-bar-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-bar .top-bar-right  img {
+    border-left: 1px solid #ececec;
+}
+
+.hero-section {
+    height: 80vh;
+    background-image: url('https://htmldemo.net/greensoul/greensoul/img/hero/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 80px;
+    color: rgb(237, 237, 237);
+}
+.hero-section p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
